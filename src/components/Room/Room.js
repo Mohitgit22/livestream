@@ -27,7 +27,8 @@ function Room() {
         sharedLinks: [
             {
                 name: "Copy Link",
-                url: `http://localhost:3000/room/${roomid}`
+                // url: `http://localhost:3000/room/${roomid}`
+                url: `https://661f73777b1026ebca00243e--csms-livestream.netlify.app/`
 
             }
         ],
