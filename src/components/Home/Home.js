@@ -56,7 +56,7 @@ import { useNavigate } from 'react-router-dom';
 
 function Home() {
     const defaultRoomId = 'your_default_room_id_here'; // Set your default room ID here
-    const [roomId, setRoomID] = useState(defaultRoomId);
+    const [roomId, setRoomId] = useState(defaultRoomId);
     const navigate = useNavigate(); // useNavigate Hook
 
     const handleJoin = () => {
