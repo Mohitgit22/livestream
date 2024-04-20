@@ -55,12 +55,12 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 function Home() {
-    const defaultRoomId = 'your_default_room_id_here'; // Set your default room ID here
-    const [roomId, setRoomId] = useState(defaultRoomId);
+    const defaultRoomId = 'livestream'; // Set your default room ID here
+    // const [roomId, setRoomId] = useState(defaultRoomId);
     const navigate = useNavigate(); // useNavigate Hook
 
     const handleJoin = () => {
-        navigate(`/room/${roomId}`);
+        navigate(`/room/${defaultRoomId}`);
     }
 
     return (
